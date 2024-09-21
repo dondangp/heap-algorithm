@@ -79,9 +79,11 @@ class MinHeap:
 # Example usage:
 
 if __name__ == "__main__":
+    
     # Build the heap from a list of integers
     data = [9, 5, 6, 2, 3, 1, 7]
     heap = MinHeap(data)
+    print("Example 1:")
     print("Initial heap:", heap)
 
     # Pop the root node (smallest element)
@@ -100,3 +102,34 @@ if __name__ == "__main__":
     while not heap.is_empty():
         print("Popped element:", heap.pop())
         print("Heap:", heap)
+
+    
+## Example 2 
+    print("Example 2:")
+    # Initial heap construction with integer values
+    data = [15, 5, 20, 1, 17, 10, 30]
+    heap = MinHeap(data)
+    print("Initial heap:", heap)
+
+    # Check if the heap is empty
+    print("Is heap empty?", heap.is_empty())
+
+    # Peek at the root element
+    print("Peek at root:", heap.peek())
+
+    # Insert elements into the heap
+    heap.insert(3)
+    heap.insert(2)
+    print("Heap after insertions (3, 2):", heap)
+
+    # Pop the root (smallest element)
+    print("Popped element:", heap.pop())
+    print("Heap after pop:", heap)
+
+    # Pop all elements and display heap after each pop
+    while not heap.is_empty():
+        print("Popped element:", heap.pop())
+        print("Heap:", heap)
+
+    # Final check if the heap is empty
+    print("Is heap empty?", heap.is_empty())
