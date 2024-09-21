@@ -1,5 +1,5 @@
 # MinHeap Data Structure
-
+Example is located inside heap.py
 ## Methods
 build_min_heap(data): Constructs the heap from a given array of elements.
 heapify(i): Ensures the heap property is maintained starting from index i.
