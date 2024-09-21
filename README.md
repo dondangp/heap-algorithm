@@ -8,7 +8,7 @@ pop(): Removes and returns the root node (minimum element) and restores heap ord
 peek(): Returns the root node without removing it.
 is_empty(): Checks if the heap is empty
 
-## Examples
+## Example
 ### Input
 data = [9, 5, 6, 2, 3, 1, 7]
 ### Output
@@ -33,3 +33,5 @@ Popped element: 8
 Heap: [9]
 Popped element: 9
 Heap: []
+
+###Other examples located in heap.py
